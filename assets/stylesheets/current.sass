@@ -1,0 +1,84 @@
+.blocks
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+  .block
+    float: left
+    width: 250px
+    height: 250px
+    padding: 25px
+    border-radius: 350px
+    background: #fafafa
+    position: relative
+    text-align: center
+    margin-right: 25px
+
+    &.last
+      margin-right: 0px
+
+
+    .icon
+      //position: absolute
+      //top: 0px
+      //left: 0px
+      width: 64px
+      height: 64px
+      margin: 0px auto
+      margin-top: 50px
+
+      &.check
+        background: url('/images/2.png') no-repeat
+
+      &.case
+        background: url('/images/case-icon.png') no-repeat
+
+      &.clock
+        background: url('/images/clock-icon.png') no-repeat
+
+
+    .content
+      margin-top: 15px
+      font-size: 16px
+      line-height: 1.4
+      padding-top: 10px
+      color: #2c3e50
+
+
+.to-do
+  width: 720px
+  text-align: center
+  line-height: 1.4
+  margin: 25px auto
+  font-size: 24px
+  color: #2c3e50
+
+
+.call-to-action
+  width: 480px
+  text-align: center
+  line-height: 1.4
+  margin: 25px auto
+  font-size: 36px
+  color: #3498db
+
+
+
+.button
+  width: 280px
+  height: 44px
+  margin: 25px auto
+  line-height: 49px
+  text-align: center
+  font-size: 16px
+  border: none
+  border-radius: 6px
+  background: #3498db
+  box-shadow: 0px 5px 0 #2980b9
+  color: #fff
+  cursor: pointer
+  &:hover
+    background: #2980b9

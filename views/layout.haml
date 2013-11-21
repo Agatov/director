@@ -1,0 +1,10 @@
+%html
+  %head
+    = css :application
+    %script{src: 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'}
+    = js :application
+    %title
+      Услуги номинального директора
+  %body
+    = yield
+    = erb :metrika

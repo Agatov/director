@@ -1,0 +1,58 @@
+.section{style: 'border-bottom: 1px solid #ecf0f1; padding-bottom: 75px; margin-bottom: 75px;'}
+  .wrapper
+    .section-title
+      %h1
+        Услуги номинального директора
+
+-#.section{style: 'padding-top: 10px; padding-bottom: 25px; border-bottom: 1px solid #ecf0f1;'}
+  .wrapper
+    .section-title
+      %h3
+        Почему стоит купить фирму с историей у компании "ГорКом"
+    .blocks{style: 'margin-top: 50px;'}
+      .block
+        .icon.check
+        .content
+          Каждая компания прошла проверку в контролирующих органах
+
+      .block
+        .icon.case
+        .content
+          100% гарантия отсутствия задолженностей
+
+      .block.last
+        .icon.clock
+        .content
+          Приобретение новой фирмы не займет больше часа
+
+
+.section
+  .wrapper
+    .to-do
+      Чтобы получить более подробную информацию, оставьте заявку или позвоните по номеру ниже.
+    .call-to-action
+      8 (495) 760 74 42
+    .button.order-button
+      Оставьте заявку
+
+
+.modal-overlay
+.modal-dialog
+  .header
+    Оставьте заявку и мы с вами свяжемся
+  .body
+    %form{action: '#'}
+      %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+      %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+      %button#send-order
+        Отправить
+
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!
