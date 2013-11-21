@@ -1,8 +1,8 @@
 # Bundler tasks
 require 'bundler/capistrano'
 
-set :application, "gorkom5"
-set :repository,  "git@github.com:Agatov/gorkom5.git"
+set :application, "director"
+set :repository,  "git@github.com:Agatov/director.git"
 
 set :scm, :git
 
